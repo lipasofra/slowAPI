@@ -1,14 +1,11 @@
-# MathBirthdays
+# Slow API Challenge
 
-This SPA helps you calculate your math brithday. You just need to enter your year, month and day of your birth date. Future dates are not allowed.
+In the "slowApi.js" file you will find the completion of a memoize function that return the fastest answer between a slow function and a cache retrieve function. Because the slow function (that retrieves data from the data source) is always called, the cache must be updated each time.
 
 *This project is a technical test*
 
-## What is that
+## Assumptions
+The asynchronous cache_retrieve, cache_store and slow_functions functions are assume to exist. <br>
+<br>
 
-The math brithday is a date where you would have a power of ten days (10<sup>n</sup>) after the day you were born.
-So this app will tell you how many days and the date of your next math birthday!
-
-### Techonologies
-This SPA was build using React.js and is hosted online. 
-You can find it in https://lipasofra.github.io/mathbirthdays/
+*The "FullExample.js" file was just my playground for this project*
